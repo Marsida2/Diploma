@@ -1,1 +1,1 @@
-# diploma
+# Programi i diplomes sime
