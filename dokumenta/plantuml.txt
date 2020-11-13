@@ -1,0 +1,101 @@
+@startuml
+
+title Relationships - Databaza FTI_UNI
+abstract class Perdorues {
+  +id_perdorues: int {key}
+  +emer: varchar
+  +mbiemer: varchar
+  +email: varchar
+  +password: varchar
+  +foto_profili: varchar 
+}
+
+Perdorues "*"-- "1" Roli
+class Roli {
+}
+
+class Pedagog {
+}
+class Student {
+}
+class Admin {
+}
+
+Roli <|-down-Pedagog
+Roli <|-down-Student
+Roli <|-down-Admin
+
+
+class Lende {
++kod_lende: varchar{key}
++emertim: varchar
++pershkrim: varchar
+}
+
+
+class Pergjegjes_Lende {
++kod_lende: varchar
++id_pedagog: int
+}
+
+class Regjistrim_Lende {
++kod_lende: varchar
++id_student: int
+}
+
+Lende "1"-- "*" Regjistrim_Lende
+Student "1"-- "*"  Regjistrim_Lende: ndjek >
+
+Pergjegjes_Lende "*"-- "1" Lende
+Pergjegjes_Lende "*"-- "1" Pedagog : udheheq <
+
+class Post {
++id_post: int {key}
++titull: varchar
++permbajtje: varchar
++data: timestamp
++kod_lende: varchar
++id_postues: int
+}
+
+class Koment {
++permbajtje: varchar
++data: timestamp
++id_posti: int
++id_postues: int
+}
+
+Post *--"*" Koment
+Post "*"--"1" Perdorues : poston <
+Koment "*"--"1" Perdorues : komenton <
+
+
+class Test {
++id_test: int
++kod_lende: varchar
++fillimi: timestamp
++mbarimi: timestamp
++emertim_testi: varchar
+}
+
+class Pyetje {
++id_pyetje: int
++pyetja: varchar
++id_testi: int
++pergjigje_sakte: int
+}
+
+class Pergjigje {
++id_pergjigje: int
++pergjigja: varchar
++id_pyetja: int
+}
+
+Test *--"1..*" Pyetje 
+Test *--"1..*" Lende 
+Pyetje *--"1..*" Pergjigje
+Pyetje "1"--"1" Pergjigje : e vertete <
+
+
+@enduml
+
