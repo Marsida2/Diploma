@@ -1,0 +1,399 @@
+body {
+	background-color: #CCE3E5;
+	font-family: 'Quicksand-Regular';
+}
+
+.top_bar {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	height: 55px;
+	min-width: 1050px;
+	background-color: #3296C3;
+	border-bottom: 1px solid #071012;
+	color: white;
+	display: inline-flex;
+}
+
+.logo a {
+	font-family: 'Quicksand-Bold';
+	margin-left: 15px;
+	font-size: 250%;
+	position: relative;
+	text-decoration: none;
+	text-shadow:  0.5px 0.5px 0px #07A012 ;
+	color: black;
+}
+
+.logo a:hover {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 15px  #3296C3, 0 0 5px white;
+}
+
+nav {
+	position: absolute;
+	left: 13%;
+	padding: 10px;
+	margin-top: 10px;
+	margin-right: 30px;
+}
+
+
+a.navLink {
+	font-family: 'quicksand-bold';
+    color: black;
+	text-align: center;
+	margin-bottom: 0px;
+    padding-bottom: 15px;
+	padding-left: 20px; 
+	text-decoration: none;
+}
+
+
+#emriNav {
+	text-decoration: none;
+	color: #071012;
+}
+
+
+.wrapper {
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+	padding: 0 10px;
+	width: 80%;
+	min-width: 950px;
+}
+
+#fotoProfili {
+	max-width: 160px;
+	min-width: 60px;
+	position: inherit;
+    margin: 20px 35px;
+    border-radius: 30px;
+}
+
+#fotoProfili:hover {
+ filter: brightness(60%);	
+ opacity: 0.8; 
+ transition: all 1s;
+}
+
+.column {
+	background-color: #ffff;
+	padding: 10px;
+	margin-right: 20px;
+	margin-top: 12px;
+	margin-bottom: 10px;
+	border: 1px solid #071012;
+	border-radius: 6px;
+}
+
+.teDhenaPersonale {
+	width: 20%;
+	text-align: left;
+	position: fixed;
+}
+
+.kolonaKryesore {
+	width: 70%;
+	padding: 30px;
+	background-color: #eff5f5;
+}
+
+.col3 {
+	position: fixed;
+	left: 14%;
+    width: 20%;
+    top: 380px;
+}
+
+.btnShto {
+	border-radius: 5px;
+	margin: 3px;
+}
+
+input.btnShto.pink {
+	background-color: #d89c57f5;
+	color: black;
+	font-weight: 700;
+}
+
+.lejla {
+	background-color: gainsboro;
+}
+
+.posti {
+	border-radius: 4px;
+	padding: 15px;
+    margin: 10px auto;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.7);
+    background-color: white;
+}
+
+.postim {
+	padding: 15px;
+	background-color: white;
+	margin-bottom: 50px;
+	border-radius: 5px;
+}
+
+.postim > form.butonat {
+	text-align-last: center;
+}
+
+#frmShto {
+	margin-bottom: -10px;
+}
+
+.fotoPosti {
+	max-width: 500px; 
+	max-height: 300px; 
+	margin:5px auto;
+}
+
+.titullPosti {
+	text-shadow: 1px 1px 3px #481741;
+    font-size: 2.2rem;
+    font-family: 'Quicksand-Bold';
+}
+
+.permbajtjePosti{
+	font-size: 1.6rem;
+}
+
+.postues{
+	margin-top: -14px;
+    font-style: italic;
+    text-shadow: 1px 1px 3px #481741;
+}
+.paraPostues {
+	text-shadow: none;
+	font-style: normal;
+}
+
+span.date {
+	margin-left: 6px;
+	font-style: normal;
+    font-size: smaller;
+    text-shadow: none;
+}
+
+.komenti {
+	width: 34rem;
+    border-radius: 5px;
+    margin: 2px;
+    margin-left: 0px;
+    outline: 0;
+}
+
+.komentet {
+	background-color: rgba(0,0,0,0.1);
+    margin: 0px 5px 10px;
+	padding: 10px 20px;
+	padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+.fshih {
+	display: none;
+}
+
+.komentetReja form{
+	display: inline-flex;
+}
+
+.komentetTjera{
+	display: none;
+}
+
+.formClass > p {
+	padding-left: 15px;
+}
+
+/*stilet e kutise se kerkimit*/
+#kerko_inputin {
+	height: 28px;
+    width: 170px;
+    float: left;
+    margin: 12px;
+    margin-left: 40px;
+    border: thin solid black;
+    border-radius: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+   	outline: 0; /*sherben per te hequr vijezimin default te inputit kur klikohet mbi te*/
+    color: black;
+    padding: 8px;
+    transition: width 1s;
+}
+
+
+button, input[type=submit] {
+	background-color: white;
+}
+
+input[type=text] {
+	padding-left: 8px;
+}
+
+
+.btnKerkimi {
+	width: 37px;
+    height: 28px;
+    background-color: #e5e5e5;
+    float: left;
+    margin: 12px;
+    margin-left: -12px;
+    border: thin solid black;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    cursor: pointer;
+    transition: background-color 1s;
+}
+
+
+.search {
+	position: absolute;
+    right: 22%;
+    z-index: inherit;
+}
+
+ul#sugjerime {
+	position: absolute;
+    right: 19%;
+    z-index: inherit;
+    width: 165px;
+    margin-top: 40px;
+    padding-left: 0px;
+    border: 1px solid black;
+    list-style-type: none;
+	background: white;
+    color: black;
+    display: none;
+}
+
+ul#sugjerime a {
+	text-decoration: none;
+	margin: 0px;
+}
+
+ul#sugjerime li {
+	padding: 8px 8px 8px 10px;
+    margin: 0px;
+}
+
+ul#sugjerime li:hover {
+	background-color: #ddd;
+}
+
+
+.tabeleRezultatesh td {
+	margin: 20px;
+	padding: 10px;
+	font-size: 1.6rem;
+	font-weight: 700;
+}
+
+.tbl td, th {
+	padding-left: 15px;
+}
+
+.container {
+	grid-template-columns: 1fr;
+    grid-gap: 5px;
+    width: auto;
+    display: grid;
+ }
+
+.kutiLink {
+	border: 1px solid black;
+	border-radius: 6px;
+	background-color: white;
+	padding: 20px;
+	cursor: pointer;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 0.3s linear;
+}
+
+.kutiLink:hover {
+	box-shadow: rgba(0,0,0,0.8) 0px 5px 10px, inset rgba(0,0,0,0.15) 0px 5px 10px;
+}
+.container a {
+	text-decoration: none;
+}
+
+
+
+
+/*stilet e drop down ne menune kryesore*/
+
+.droplink {
+  color: white;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  margin-top: 13px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .droplink {font-weight: 800;}
+
+.dropdown:hover a.navLink {
+	color: white;
+	text-shadow: 1px 1px 2px black, 0 0 15px  #3296C3, 0 0 5px white;
+}
+
+.bg-portokalli {
+	/*padding: 15px;
+    border-radius: 5px;*/
+    background-color: gainsboro;
+}
+
+
+.loadingParagraf {
+	padding-left: 50%;
+	display: none;
+}
+
+.loadingGif {
+	width: 10%;
+}
+
+
+#logoFTI {
+	position: absolute;
+    right: 0%;
+    height: inherit;
+}
+
+#ftiFoto {
+	width: 100%;
+    border: 1px solid black;
+    border-radius: inherit;
+}
