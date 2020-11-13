@@ -13,11 +13,7 @@ require 'includes/loginHandler.php';
 </head>
 <body>
 
-<!-- <script type="text/javascript" src="js/mouseMove.js"></script>
-<table id="tabela">
-			<tbody id="telajo">
-			</tbody>
-		</table> -->
+
 	<div class="centerDiv">
 		<div class="titullDiv">
 			<h1 class="titull"><a href="index.php">FTI<em>uni</em></a></h1>
