@@ -18,11 +18,11 @@ Sistemi i menaxhimit do të funksionojë si një sistem individual, i aksesuesh�
 
 **Kërkesat e sistemit**
 
-•	Kërkesat funksionale:
+**•	Kërkesat funksionale:**<br>
 o	Faqja do ketë një administrator me kompetenca universale;<br>
 
 
-Regjistrimi dhe kycja në sistem
+Regjistrimi dhe kycja në sistem<br>
 o	Për të aksesuar faqen e web-it nevojiten kredenciale personale;<br>
 o	Kredencialet krijohen vetëm nga administratori;<br>
 o	Administratori regjistron studentë dhe pedagogë në sistem;<br>
@@ -33,7 +33,7 @@ o	Të dhënat e marra nga çdo përdorues janë: emri, mbiemri, email personal;<
 o	Përdoruesi mund të ndryshojë fjalekalimin e tij;<br>
 o	Përdoruesit personalizojnë foton e profilit;<br>
 
-Regjistrimi i lëndëve
+Regjistrimi i lëndëve<br>
 o	Administratori regjistron lëndët e reja të programit në sistem dhe fshin lëndët që dalin prej tij;<br>
 o	Administratori përcakton pëegjegjësin e lëndës;<br>
 o	Një lëndë mund të ketë më tepër sesa një përgjegjës;<br>
@@ -45,15 +45,15 @@ o	Çdo lëndë ka një forum të sajin;<br>
 o	Forumi aksesohet vetëm nga përgjegjësit dhe studentët ndjekës;
 o	Çdokush mund të bëjë një postim në murin e forumit, tekst, me/pa foto;
 o	Çdokush mund të komentojë në postimet e forumit që akseson;
-o	Pedagogët përgjegjës:
+o	Pedagogët përgjegjës:<br>
 	Ngarkojnë dokumente të formateve të ndryshme (pdf, .doc, .exl...) në lëndët përgjegjëse;<br>
 	Krijojnë test me pyetje me shumë opsione përgjigjesh;<br>
 	Testet janë aktive vetëm gjatë një kohëzgjatje të përcaktuar nga pedagogu;<br>
-o	Studëntët e regjistruar:<br>
+o	Studentët e regjistruar:<br>
 	Shkarkojnë dokumentet e ngarkuara nëpër lëndë;<br>
 	Kryejnë testet individuale të pedagogëve;<br>
 
-•	Kërkesat jofunksionale:<br>
+**•	Kërkesat jofunksionale:**<br>
 
 o	Strukturimi i faqes është vizualisht lehtësisht i përdorshëm dhe orientues drejt funksionaliteteve të tij që në navigimin e parë të faqes.<br>
 o	Çdo përdorues është në gjendje të kryejë kyçjen me sukses në aplikacion, pa nevojën e asistencës së jashtme. <br>
